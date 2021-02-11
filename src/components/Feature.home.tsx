@@ -9,8 +9,8 @@ function Feature() {
              className=' relative z-10 pt-48 flex flex-col items-center text-center mx-2 pb-32'>
             <YouTubeLogo className='h-12 w-12 sm:h-14 sm:w-14 fill-current  mb-1' />
             <div className='flex flex-col items-center w-3/4'>
-              <h3 className='text-3xl w-40 leading-9  text-white font-semiblod  mb-4'><i>WATCH VEDIO</i></h3>
-               <h1 className="text-white font-semibold  mb-2 sm:text-5xl"> Make your business more with us</h1>
+              <h3 className='text-xl w-40 leading-9  text-white font-semiblod  mb-4'><i>WATCH VEDIO</i></h3>
+               <h1 className="text-white font-semibold text-3xl  mb-2 sm:text-5xl"> Make your business more with us</h1>
             <p className='text-gray-300 text-sm sm:text-lg '>It is long established fact that a reader will be distracted by readable content layout readable English.</p>
             </div>
             <button

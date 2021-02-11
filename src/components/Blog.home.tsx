@@ -11,7 +11,7 @@ function Blog() {
              </div>
              <div className="flex flex-col xl:flex-row justify-center">
              <img className='xl:w-96 h-96 ' src="images/blog-1.jpg" alt=""/>
-             <img className='xl:w-96 h-96 mx-10' src="images/blog-2.jpg" alt=""/>
+             <img className='xl:w-96 h-96 xl:mx-10' src="images/blog-2.jpg" alt=""/>
              <img className='xl:w-96 h-96' src="images/blog-3.jpg" alt=""/>
              </div>
 
