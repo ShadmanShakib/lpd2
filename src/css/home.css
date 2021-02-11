@@ -1,0 +1,21 @@
+.abouth3{
+    background-image: linear-gradient(to right top, rgb(38, 208, 202), rgb(37, 227, 117));
+}
+@keyframes absoani{
+    from{transform: scale(0); }
+    to{transform: scale(1);}
+}
+
+.profolioImg:hover .abso {
+    animation:absoani 0.2s ease-in ;
+    display: block;
+}
+.profolioImg:hover .category {
+    display: block;
+    animation:absoani 0.2s ease-in ;
+  
+}
+.profolioImg:hover .title {
+    display: block;
+    animation:absoani 0.2s ease-in ;
+}

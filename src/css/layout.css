@@ -1,0 +1,22 @@
+@keyframes line1ani {
+    from {transform: rotate(0deg) translateY(0) translateX(0); }
+    to {transform: rotate(45deg) translateY(0.20rem) translateX(0.20rem); }
+}
+@keyframes line2ani {
+    from {transform: rotate(0deg) translateY(0) translateX(0); }
+    to {transform: rotate(-45deg) translateY(-0.20rem) translateX(0.20rem) ; }
+}
+@-webkit-keyframes line2ani{
+    from {transform: rotate(0deg) translateY(0) translateX(0); }
+    to {transform: rotate(-45deg) translateY(-0.20rem) translateX(0.20rem) ; }  
+}
+
+.line1{
+animation: line1ani 0.2s ease ;
+-webkit-animation: line1ani 0.2s ease;
+}
+
+.line2{
+    animation:line2ani 0.2s ease;
+-webkit-animation: line2ani 0.2s ease;
+}
